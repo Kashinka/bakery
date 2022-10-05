@@ -1,6 +1,7 @@
 # bakery
 
 Website development for a private confectioner in a team of 5 people using Agile technology. Our design.
+<br/>
 <br/> My tasks:
 <br/> • Search for a customer and communication with him.
 <br/> • Participation in the organization of the team's work.
