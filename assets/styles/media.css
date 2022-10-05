@@ -1,0 +1,48 @@
+@media (min-width: 768px) {
+  .navbar__text {
+    display: flex;
+    margin-top: -15px;
+    margin-left: 1090px;
+  }
+  .dropdown-content__mob {
+    display: none;
+  }
+  .conditions {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+  }
+  .conditions__img {
+    max-width: 100%;
+    position: relative;
+    left: 22%;
+    top: -80px;
+  }
+  .logo {
+    font-size: 60px;
+    transform: rotate(3deg);
+  }
+}
+@media (max-width: 767px) {
+  .reviews__scroll {
+    height: 500px;
+    background-color: #ceaf89;
+    border-radius: 1%;
+    overflow-x: hidden;
+  }
+  .conditions {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+  }
+  .conditions__img {
+    display: none;
+  }
+   .logo {
+    font-size: 50px;
+    transform: none;
+  }
+  .text {
+    display: none;
+  }
+}

@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <title>Прайс</title>
+  <link rel="shortcut icon" href="./assets/img/icon.png" type="image/svg" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./assets/styles/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+</head>
+
+<body class="body">
+  <header>
+    <div class="header-container">
+      <div class="dropdown">
+        <button class="btn">
+          <i class="fas fa-birthday-cake btn-outline-dark fa-3x header__button"></i>
+        </button>
+        <div class="dropdown-content rounded-bottom">
+          <a href="./main_page.html">Главная</a>
+          <a href="./price.html">Прайс</a>
+          <a href="./main_page.html#reviews">Отзывы</a>
+          <a href="./price.html#footer">Контакты</a>
+        </div>
+      </div>
+      <div class="header-content">
+        <a class="header-content__link" href="tel:+79818612991">Заказ тортов Санкт-Петербург<p
+            class="header-content__phone">+7 981 861-29-91</p>
+        </a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="price_page">
+      <h2 class="price__heading heading">Прайс</h2>
+    </div>
+    <div class="container-slider">
+      <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true}'>
+        <div class="gallery-cell scrolling-wrapper flex-column price__scroll">
+          <div class="card price__card_format">
+            <div class="row no-gutters">
+              <div class="col-4">
+                <img src="./assets/img/pricecake.png" class="card-img" alt="Cakes" />
+              </div>
+              <div class="col">
+                <div class="card-body">
+                  <h3 class="card-title bold">Торты</h3>
+                  <div class="card-text">
+                    <table>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold">Торт «Красный бархат»</p>
+                          (сочный бисквит, малиновая начинка, крем-чиз на
+                          сливках)
+                        </td>
+                        <td>1 900 руб/кг</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold">Торт «Шоколадная смородина»
+                          </p>
+                          (шоколадный бисквит, смородиновое компоте,
+                          шоколадный крем, покрытие – ганаш на белом шоколаде)
+                        </td>
+                        <td>2 100 руб/кг</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold">Торт «Морковь-апельсин-карамель»
+                          </p>
+                          (пряный морковный бисквит, апельсиновый курд,
+                          карамель, сметанно-сырный крем)
+                        </td>
+                        <td>2 000 руб/кг</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold">Торт «Рафаэлло»</p>
+                          (миндально-кокосовый бисквит, начинка – кокосовый
+                          ганаш, творожный крем)
+                        </td>
+                        <td>2 100 руб/кг</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold">Торт «Банан-манго»</p>
+                          (миндальный бисквит с цедрой, компоте банан-манго,
+                          банановый чизкейк, крем-чиз с белым шоколадом с
+                          добавлением пюре манго)
+                        </td>
+                        <td>2 350 руб/кг</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold">Торт «Маракуйя&Лайм»</p>
+                          (лаймовый биксвит, чизкейк с маракуйей, карамельное
+                          кремю , конфи из маракуйи, крем ганаш на белом
+                          шоколаде)
+                        </td>
+                        <td>2 350 руб/кг</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold">Торт «Молочная девочка»</p>
+                          (сливочные коржи, вишня с воздушным сливочным
+                          кремом, крем пломбир
+                        </td>
+                        <td>1 900 руб/кг</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold">Торт «Черный лес»</p>
+                          (шоколадный бисквит с вишневой пропиткой, вишня с
+                          воздушным сливочным кремом, творожный крем)
+                        </td>
+                        <td>1 900 руб/кг</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-cell scrolling-wrapper flex-column price__scroll">
+          <div class="card price__card_format">
+            <div class="row no-gutters">
+              <div class="col-4">
+                <img src="./assets/img/mousse.png" class="card-img" alt="Mousse cakes" />
+              </div>
+              <div class="col">
+                <div class="card-body">
+                  <h3 class="card-title bold">Муссовые торты</h3>
+                  <div class="card-text">
+                    <table>
+                      <tr>
+                        <td>
+                          <p class="bold">«Эрл грей и абрикос»</p>
+                          (бисквит Пан де Жен, абрикосовое конфи, лимонный
+                          крем, мусс с чаем эрл грей)
+                        </td>
+                        <td>2 400 руб/кг</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold">«Шоколад, банан и карамель»
+                          </p>
+                          (шоколадный бисквит, хрустящий слой, начинка –
+                          ванильный мусс, карамельный мусс, карамелизированный
+                          банан, шоколадный мусс)
+                        </td>
+                        <td>2 400 руб/кг</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold">«Маракуйя-манго»</p>
+                          (бисквит кокосовый дакуаз, компоте манго-маракуйя,
+                          мусс манго-маракуйя)
+                        </td>
+                        <td>2 400 руб/кг</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold">«Клубничная ванилька»</p>
+                          (миндальный бисквит, клубничное конфи, ванильный
+                          мусс)
+                        </td>
+                        <td>2 400 руб/кг</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold">«Фисташка-малина-брауни»</p>
+                          (брауни, малиновое конфи, ванильная намелака,
+                          фисташковый мусс)
+                        </td>
+                        <td>2 450 руб/кг</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold">«Карамель-фундук»</p>
+                          (фундучный бисквит с хрустящим крамблом, соленая
+                          карамель, крем лакте, баварский мусс с фундуком)
+                        </td>
+                        <td>2 500 руб/кг</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-cell scrolling-wrapper flex-column price__scroll">
+          <div class="card price__card_format">
+            <div class="row no-gutters">
+              <div class="col-4">
+                <img src="./assets/img/bento.png" class="card-img" alt="Bento cakes" />
+              </div>
+              <div class="col">
+                <div class="card-body">
+                  <h3 class="card-title bold">Бенто-торты</h3>
+                  <div class="card-text">
+                    <table>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold">«Морковный с апельсином»</p>
+                          (пряный морковный бисквит, цитрусовая начинка, крем
+                          чиз)
+                        </td>
+                        <td>1 200 руб/шт</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold">«Сникерс»</p>
+                          (сочный шоколадный бисквит, карамельная с арахисом
+                          начинка, крем чиз)
+                        </td>
+                        <td>1 200 руб/шт</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold">«Шоколадная вишня»</p>
+                          (сочный шоколадный бисквит, вишневое компоте,
+                          шоколадный крем)
+                        </td>
+                        <td>1 200 руб/шт</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold">«Ореховый»</p>
+                          (ванильный бисквит, ореховый ганаш, начинка орехи
+                          (фисташки и др), крем чиз)
+                        </td>
+                        <td>1 200 руб/шт</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold">«Цитрус»</p>
+                          (лимонный бисквит, лимонный курд, лимонный крем чиз)
+                        </td>
+                        <td>1 200 руб/шт</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold">«Клубника-ваниль»</p>
+                          (ванильный бисквит, клубничное конфи, клубничный
+                          крем чиз)
+                        </td>
+                        <td>1 200 руб/шт</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-cell scrolling-wrapper flex-column price__scroll">
+          <div class="card price__card_format">
+            <div class="row no-gutters">
+              <div class="col-4">
+                <img src="./assets/img/trifles.png" class="card-img" alt="Trifles" />
+              </div>
+              <div class="col">
+                <div class="card-body">
+                  <h3 class="card-title bold">Трайфлы</h3>
+                  <div class="card-text">
+                    <table>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold">«Пина Колада»</p>
+                          (миндальный бисквит, ананасовый компоте, кокосовый
+                          мусс)
+                        </td>
+                        <td>360 руб/шт</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold">«Черный лес»</p>
+                          (шоколадный бисквит, вишня в сиропе, сливочный
+                          шоколадный крем)
+                        </td>
+                        <td>260 руб/шт</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold">«Лимонный»</p>
+                          (лимонный бисквит, апельсиновый курд, ганаш из
+                          темного шоколада)
+                        </td>
+                        <td>260 руб/шт</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold">«Шоколад и клюква»</p>
+                          (шоколадный бисквит, клюквенное конфи, крем чиз на
+                          масле)
+                        </td>
+                        <td>260 руб/шт</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold">«Сникерс»</p>
+                          (шоколадный бисквит, карамель с арахисом, арахисовый
+                          крем чиз)
+                        </td>
+                        <td>260 руб/шт</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-cell scrolling-wrapper flex-column price__scroll">
+          <div class="card price__card_format">
+            <div class="row no-gutters">
+              <div class="col-4">
+                <img src="./assets/img/cupcake.png" class="card-img" alt="Cupcakes" />
+              </div>
+              <div class="col">
+                <div class="card-body">
+                  <h3 class="card-title bold">Капкейки</h3>
+                  <div class="card-text">
+                    <table>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold">«Ванильные с малиной»</p>
+                          (ванильные капкейки, малиновое конфи (можно другую
+                          ягоду), сливочный крем)
+                        </td>
+                        <td>190 руб/шт</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold">«Шоколадно-кофейные с бананом»
+                          </p>
+                          (шоколадно-кофейные капкейки, карамелизированный
+                          банан, шоколадный крем чиз)
+                        </td>
+                        <td>190 руб/шт</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold">«Красный бархат»</p>
+                          с ганашем на темном шоколаде
+                        </td>
+                        <td>190 руб/шт</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold">«Лимонные с брусничным курдом»
+                          </p>
+                          и сливочный крем
+                        </td>
+                        <td>190 руб/шт</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-cell scrolling-wrapper flex-column price__scroll">
+          <div class="card price__card_format">
+            <div class="row no-gutters">
+              <div class="col-4">
+                <img src="./assets/img/decor.png" class="card-img" alt="Decor" />
+              </div>
+              <div class="col">
+                <div class="card-body">
+                  <h3 class="card-title bold">Декор</h3>
+                  <div class="card-text">
+                    <table>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold margin_none">Леденцы/безе</p>
+                        </td>
+                        <td class="table_padding-left">от 180 руб</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold margin_none">Подтеки шоколадные</p>
+                        </td>
+                        <td class="table_padding-left">200 руб</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold margin_none">Топперы акриловые/деревянные
+                          </p>
+                        </td>
+                        <td class="table_padding-left">от 250 руб</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold margin_none">Пряники ручной работы</p>
+                        </td>
+                        <td class="table_padding-left">от 180 руб</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold margin_none">Шоколадки/печеньки и пр.</p>
+                        </td>
+                        <td class="table_padding-left">от 300 руб</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold margin_none">Печать на вафельной бумаге</p>
+                        </td>
+                        <td class="table_padding-left">350 руб</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold margin_none">Печать на сахарной бумаге</p>
+                        </td>
+                        <td class="table_padding-left">500 руб</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold margin_none">Ягоды свежие ассорти</p>
+                        </td>
+                        <td class="table_padding-left">1000 руб</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold margin_none">В сезон</p>
+                        </td>
+                        <td class="table_padding-left">400 руб</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold margin_none">Живые цветы</p>
+                        </td>
+                        <td class="table_padding-left">по чеку</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-cell scrolling-wrapper flex-column price__scroll">
+          <div class="card price__card_format">
+            <div class="row no-gutters">
+              <div class="col-4">
+                <img src="./assets/img/gingerbread.png" class="card-img" alt="Gingerbreads" />
+              </div>
+              <div class="col">
+                <div class="card-body">
+                  <h3 class="card-title bold">Пряники</h3>
+                  <div class="card-text">
+                    <table>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold margin_none">Девочка</p>
+                        </td>
+                        <td class="table_padding-left">400 руб/шт</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold margin_none">Львёнок</p>
+                        </td>
+                        <td class="table_padding-left">350 руб/шт</td>
+                      </tr>
+                      <tr>
+                        <td class="table_padding">
+                          <p class="bold margin_none">Карандаши</p>
+                        </td>
+                        <td class="table_padding-left">250 руб/шт</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="order-conditions">
+      <h2 class="order-conditions__heading heading">Условия заказа</h2>
+      <div class="conditions">
+        <div class="conditions__item">
+          <h3 class="bold">Сроки:</h3>
+          <ul class="conditions__list">
+            <li>
+              Минимальный срок заказа - <span class="bold">6-7 дней</span>
+            </li>
+            <li>
+              Подтверждение заказа <span class="bold">за 4 дня</span> до
+              оговариваемой даты
+            </li>
+          </ul>
+        </div>
+        <div class="conditions__item">
+          <h3 class="bold">Оплата:</h3>
+          <ul class="conditions__list">
+            <li>
+              Предоплата в размере <span class="bold">50%</span> -
+              обязательное условие
+            </li>
+            <li>
+              Отстаток оплаты
+              <span class="bold">при получении или 100% предоплата</span>
+            </li>
+          </ul>
+        </div>
+        <div class="conditions__item">
+          <h3 class="bold">Минимальные объемы:</h3>
+          <ul class="conditions__list">
+            <li>Бисквитные торты <span class="bold">от 2 кг</span></li>
+            <li>Муссовые торты <span class="bold">от 1 кг</span></li>
+            <li>Трайфлы <span class="bold">от 6 шт</span></li>
+            <li>Муссовые пирожные <span class="bold">от 6 шт</span></li>
+          </ul>
+        </div>
+        <div class="conditions__item">
+          <h3 class="bold">Доставка:</h3>
+          <ul class="conditions__list">
+            <li>Своя доставка: условия рассчитываются индивидуально</li>
+            <li>
+              Сервис Достависта / Яндекс доставка, оплата по тарифам сервиса
+            </li>
+          </ul>
+        </div>
+      </div>
+      <img class="conditions__img" src="/assets/img/donut-shop.png" alt="donut-shop" />
+    </div>
+  </main>
+  <footer class="footer" id="footer">
+    <h2 class="footer__heading heading">Как с нами связаться:</h2>
+    <div class="footer__link">
+      <a href="https://instagram.com/sladkiy_zaya" class="footer__item"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://vk.com/sladkiy_zaya " class="footer__item"><i class="fa-brands fa-vk"></i></a>
+      <a href="https://wa.me/79818612991" class="footer__item"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+</body>
+
+</html>

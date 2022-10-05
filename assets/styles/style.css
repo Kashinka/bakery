@@ -1,0 +1,306 @@
+@import url(./media.css);
+@font-face {
+  font-family: Corvetta;
+  src: url(/assets/fonts/Corvetta.otf);
+}
+@font-face {
+  font-family: "Quick Snack";
+  src: url(/assets/fonts/Quick\ Snack.ttf);
+}
+.body {
+  background-color: #f9f8ee;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 22px;
+  color: #795439;
+}
+.heading {
+  font-family: "Quick Snack";
+  font-size: 60px;
+  font-weight: bold;
+  color: #795439;
+  text-align: center;
+}
+.header__button {
+  margin: 3px 0 0 30px;
+  color: #f9f8ee;
+}
+.header__button:hover {
+  background-color: #795439;
+  color: #ceaf89;
+  transform: scale(1.3);
+  transition: all 0.5s ease-in-out;
+}
+.header-container {
+  background-color: #795439;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  display: block;
+  color: #f9f8ee;
+  padding: 12px 16px;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ceaf89;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #795439;
+}
+.header-content {
+  display: grid;
+  box-sizing: border-box;
+  height: 10vh;
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: center;
+  margin-right: 50px;
+}
+.header-content__link {
+  color: #f9f8ee;
+  margin: auto;
+}
+.header-content__link:hover {
+  text-decoration: none;
+  color: #f9f8ee;
+}
+.header-content__link:hover > .header-content__phone {
+  margin-left: 14px;
+  text-decoration: none;
+  color: #f9f8ee;
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+.logo {
+  font-family: Corvetta;
+  line-height: 2;
+  text-align: center;
+  margin: 1.5rem 1rem 1rem 0;
+  color: #ceaf89;
+  text-shadow: 5px 3px 5px #795439;
+}
+.about {
+  margin: 60px;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.text {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 1rem;
+}
+h2 {
+  font-weight: 700;
+  font-size: 3.4em;
+}
+.scrolling-wrapper {
+  overflow-x: scroll;
+}
+.scrolling-wrapper::-webkit-scrollbar {
+  -webkit-appearance: none;
+  height: 10px;
+}
+.scrolling-wrapper::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: rgba(83, 83, 83, 0.5);
+}
+.card-block {
+  height: 12.5rem;
+  border: none;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.5s ease-in-out;
+  border-radius: 24px;
+}
+.card-block:hover {
+  transform: translateY(-5px);
+  box-shadow: none;
+}
+.price-card__scroll::-webkit-scrollbar-thumb {
+  background-color: #ceaf89;
+}
+.price-card__title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: black;
+}
+.price-card__title:hover {
+  opacity: 0.5;
+}
+.card-1 {
+  background-color: #4158d0;
+  background-image: url(/assets/img/cake.jpg);
+}
+.card-2 {
+  background-color: #fbab7e;
+  background-image: url(/assets/img/cupcake.jpg);
+}
+.card-3 {
+  background-color: #85ffbd;
+  background-image: url(/assets/img/trifle.jpg);
+}
+.card-4 {
+  background-color: #fa8bff;
+  background-image: url(/assets/img/decor.jpg);
+}
+.card-5 {
+  background-color: #fa8bff;
+  background-image: url(/assets/img/gingerbread.jpg);
+}
+.reviews__card_format {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  text-shadow: 1px 1px 1px #f7c79e;
+  background: linear-gradient(to right, #f9f8ee, #ceaf89);
+  border: none;
+  padding-top: 2%;
+}
+/*price page*/
+.container-slider {
+  margin: 100px 0 100px 0;
+  box-sizing: border-box;
+}
+.table_padding {
+  padding: 15px 0;
+}
+.table_padding-left {
+  padding-left: 40px;
+}
+.margin_none {
+  margin-bottom: 0;
+}
+.price__heading {
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: -25px;
+}
+.gallery {
+  background: #f9f8ee;
+}
+.gallery-cell {
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  width: 66%;
+  height: 400px;
+  margin-right: 80px;
+  background: #f9f8ee;
+}
+.price__scroll {
+  height: 500px;
+  background: linear-gradient(to right, #f9f8ee, #ceaf89);
+  border-radius: 1%;
+  overflow-x: hidden;
+}
+.price__img {
+  width: 500px;
+  height: 500px;
+}
+.price__card_format {
+  height: 490px;
+  font-size: 16px;
+  text-shadow: 1px 1px 1px #f7c79e;
+  background: linear-gradient(to right, #f9f8ee, #ceaf89);
+  border: none;
+}
+.price__card_height {
+  height: 100%;
+}
+/*cell number*/
+.price__subheading {
+  position: absolute;
+  margin-top: -60px;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+}
+.order-conditions {
+  width: 95%;
+  margin: auto;
+  border-radius: 5%;
+}
+.order-conditions__heading {
+  font-size: 2em;
+  margin-bottom: 1%;
+  display: flex;
+  justify-content: center;
+}
+.bold {
+  font-weight: bold;
+}
+.conditions__item {
+  margin: 10px;
+  padding: 10px;
+  background: linear-gradient(to right, #f9f8ee, #ceaf89);
+  border-radius: 7%;
+}
+.conditions__item > h5 {
+  font-size: 1.2em;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+ul {
+  padding-left: 10px;
+}
+.conditions__list > li {
+  font-size: 0.9em;
+
+  list-style: none;
+  padding: 11px;
+  padding-left: 35px;
+  background-image: url(/assets/img/bakery.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 25px;
+}
+.conditions__img {
+  max-width: 100%;
+  position: relative;
+  left: 17%;
+  top: -80px;
+}
+.footer {
+  margin-top: 50px;
+}
+.footer__heading {
+  text-align: center;
+  font-size: 2em;
+}
+.footer__link {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer__item {
+  font-size: 50px;
+  color: #5b4638;
+}
+.footer__item:hover {
+  color: #aa7046;
+}
