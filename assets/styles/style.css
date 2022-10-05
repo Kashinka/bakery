@@ -172,6 +172,10 @@ h2 {
   background-color: #fa8bff;
   background-image: url(/assets/img/gingerbread.jpg);
 }
+.margin_reviews-heading {
+  margin-top: 100px;
+  margin-bottom: -50px;
+}
 .reviews__card_format {
   display: flex;
   flex-wrap: wrap;
