@@ -10,4 +10,5 @@ Website development for a private confectioner in a team of 5 people using Agile
 <br/>• Connecting a JS script for the block with a price list (using a slider). Its design.
 <br/>• Layout on Bootstrap, layout on BEM.
 <br/>• Participation in group calls.
-Git, JavaScript, Flex CSS, Bootstrap, HTML5, CSS, Figma, BEM, Agile.
+<br/>
+<br/>Git, JavaScript, Flex CSS, Bootstrap, HTML5, CSS, Figma, BEM, Agile.
