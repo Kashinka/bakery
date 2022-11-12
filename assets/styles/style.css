@@ -8,7 +8,7 @@
   src: url(/assets/fonts/Quick\ Snack.ttf);
 }
 .body {
-  background-color: #f9f8ee;
+  /* background-color: #f9f8ee; */
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 22px;
   color: #795439;
@@ -22,7 +22,7 @@
 }
 .header__button {
   margin: 3px 0 0 30px;
-  color: #f9f8ee;
+  /* color: #f9f8ee; */
 }
 .header__button:hover {
   background-color: #795439;
