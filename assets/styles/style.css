@@ -7,15 +7,22 @@
   font-family: "Quick Snack";
   src: url(/assets/fonts/Quick\ Snack.ttf);
 }
+.body {
+  background-color: #f9f8ee;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 22px;
+  color: #795439;
+}
+.header__button {
+  color: #f9f8ee;
+  margin: 3px 0 0 30px;
+}
 .heading {
   font-family: "Quick Snack";
   font-size: 60px;
   font-weight: bold;
   color: #795439;
   text-align: center;
-}
-.header__button {
-  margin: 3px 0 0 30px;
 }
 .header__button:hover {
   background-color: #795439;
@@ -137,7 +144,6 @@ h2 {
   justify-content: center;
   align-items: center;
   opacity: 0;
-
   font-size: 2.5rem;
   font-weight: bold;
   color: black;
@@ -267,7 +273,6 @@ ul {
 }
 .conditions__list > li {
   font-size: 0.9em;
-
   list-style: none;
   padding: 11px;
   padding-left: 35px;
