@@ -50,7 +50,6 @@
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
-/* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ceaf89;
 }
@@ -111,7 +110,6 @@ h2 {
   overflow-x: scroll;
 }
 .scrolling-wrapper::-webkit-scrollbar {
-  -webkit-appearance: none;
   height: 10px;
 }
 .scrolling-wrapper::-webkit-scrollbar-thumb {
